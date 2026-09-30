@@ -10,9 +10,9 @@ Visualizar los modelos de comunicación, comprendiendo cómo fluye el aprendizaj
 
 | Nombre | Rol en el grupo | Correo / Contacto |
 |---|---|---|
-| José Antonio Torres Anguizola | Redactor de contenidos | jose.torres1@oteima.ac.pa |
-| Davis Harold Fernández Castillo | Coordinador del grupo | davis.fernandez@oteima.ac.pa |
-| Erick Valentín Santos Chavarría | Gestor del repositorio GitHub y diagrama | erick.santos@oteima.ac.pa |
+| José Torres | Redactor de contenidos | jose.torres1@oteima.ac.pa |
+| Davis Fernández | Coordinador del grupo | davis.fernandez@oteima.ac.pa |
+| Erick Santos | Gestor del repositorio GitHub y diagrama | erick.santos@oteima.ac.pa |
 | Patricia Del Cid | Investigadora de modelos de comunicación | patricia.delcid@oteima.ac.pa |
 | Danixa Pinto | Revisora y editora final | danixa.pinto@oteima.ac.pa |
 
@@ -83,14 +83,7 @@ Los tres modelos no se excluyen, sino que se complementan en los entornos virtua
 
 ## 📎 Evidencia visual
 
-```mermaid
-flowchart LR
-    E["🧑‍🏫 Emisor<br/>(Docente / Grupo)"] -->|Mensaje| C["📡 Canal<br/>(Moodle, Meet, WhatsApp, GitHub)"]
-    C -->|Mensaje recibido| R["🧑‍🎓 Receptor<br/>(Estudiantes)"]
-    R -->|Respuesta| F["🔄 Retroalimentación<br/>(Preguntas, foros, entregas)"]
-    F --> E
-    N["⚡ Ruido<br/>(Internet, audio, distracciones, ambigüedad)"] -.->|Interfiere| C
-```
+![Circuito comunicativo – Patrulla Jaguares Tecnológicos](circuito.svg)
 
 ---
 
